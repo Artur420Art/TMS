@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>usersett</class>
+ <widget class="QMainWindow" name="usersett">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="logut">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>261</y>
+      <width>361</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#logut{
+	background-color:black;
+	border:1px solid black;
+	border-radius:32px;
+}
+
+#logut:hover{
+	background-color:rgba(255, 70, 19, 212);
+	border:1px solid red;
+	border-radius:32px;
+	color:black;
+}</string>
+    </property>
+    <property name="text">
+     <string>LOG OUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="user_upd">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>60</y>
+      <width>361</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Devanagari MT</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#user_upd{
+	background-color:rgb(1, 1,1);
+	border:1px solid black;
+	border-radius:32px;
+	color:black;
+	transition: 1.5s;
+	
+
+}
+#user_upd:hover{
+	border:1px solid red;
+	border-radius:32px;
+	color:white;
+	font-color:red;
+}</string>
+    </property>
+    <property name="text">
+     <string>                             You may change  owr account settings</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>60</y>
+      <width>81</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	background-image: url(&quot;/Users/aa/Desktop/picture/mechanic.png&quot;);
+	background-repeat: no-repeat;
+
+	border-radius:50px;
+	margin-left:20px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>160</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	background-image: url(&quot;/Users/aa/Desktop/picture/remove-user.png&quot;);
+	background-repeat: no-repeat;
+
+	border-radius:50px;
+	margin-left:20px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="user_delete">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>150</y>
+      <width>361</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Devanagari MT</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#user_delete{
+	background-color:rgb(1, 1,1);
+	border:1px solid black;
+	border-radius:32px;
+	color:black;
+	transition: 1.5s;
+}
+
+#user_delete:hover{
+	border:1px solid red;
+	border-radius:32px;
+	color:white;
+	font-color:red;
+}</string>
+    </property>
+    <property name="text">
+     <string>                             You may Delete  account </string>
+    </property>
+   </widget>
+   <zorder>logut</zorder>
+   <zorder>user_upd</zorder>
+   <zorder>label</zorder>
+   <zorder>user_delete</zorder>
+   <zorder>label_2</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
